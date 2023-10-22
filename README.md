@@ -14,9 +14,14 @@ Run with `make clean && make -B`
 There is a script inside `scripts/data_generation.sh` that can be used to generate the data using multiple processes.
 
 To use it, keep in mind that it is necessary to specify the paths inside the script.
-I.e. it is necessary to adjust the `TARGET_DIR` and `DSDGEN_PATH` accordingly, and specify the `SCALE_FACTOR`.
+I.e. it is necessary to adjust the `TARGET_DIR` and `DSDGEN_PATH` accordingly.
 
-After that, execute the script with `./data_generation.sh`.
+After that, execute the script with
+```sh
+./data_generation.sh <SF>
+```
+
+Where `<SF>` is the target Scale Factor of the data.
 
 ## Creating the tables
 
