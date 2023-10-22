@@ -35,7 +35,7 @@ for i in {1..99}; do
     generate_query
 done
 
-rm -rf ../../queries/
-mv $OUTPUT_DIR ../../
+rm -rf ../../queries/sc_${1}/
+mv $OUTPUT_DIR ../../queries/sc_${1}/
 cd -
 
