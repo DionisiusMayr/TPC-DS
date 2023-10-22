@@ -10,7 +10,7 @@
 set -eu
 
 SCALE="$1"
-TEMPLATE_DIR="../query_templates"
+TEMPLATE_DIR="../../query_templates"
 OUTPUT_DIR="./queries"
 QUERY_ID=""
 

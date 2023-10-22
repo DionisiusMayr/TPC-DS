@@ -28,3 +28,16 @@ There is another utility script (`load_data.sh`) that can be used to generate SQ
 
 As usual, one need to adjust the paths inside the script accordingly.
 
+## Query Generation
+
+In `scripts/query_generation.sh` you can find a script that generates all the 99 queries.
+
+To use it, just execute from withing the `scripts` folder:
+
+```sh
+query_generation.sh <SF>
+```
+
+Where `<SF>` is your target Scale Factor.
+This will generate a folder `queries` with all the 99 queries inside.
+Be warned: it overwrites the content of that folder every time it is executed.
